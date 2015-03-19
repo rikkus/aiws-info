@@ -161,3 +161,76 @@ blockquote * {
   font-style: italic !important;
 }
 
+
+/**
+ * CSS Buttons Generator for your pleasure!
+ * http://www.dextronet.com/css-buttons-generator
+ * 
+ * (c) Ondrej Zabojnik <zabojnik@dextronet.com>, released under the MIT license
+ * 
+ * Usage: 
+ *   <a href="" class="shiny-button"><strong>AIWS support group</strong></a>
+ * 
+ */
+
+.shiny-button {
+  display: inline-block;
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
+  text-decoration: none;
+  line-height: 1.1;
+  font: 400 20px/1 'open sans';
+  font-weight: bold;
+  color: #FFFFFF !important;
+  background-color: #41A86E;
+  background-image: -webkit-linear-gradient(top, #42ac70 0%, #6ca585 48%, #41A86E 49%, #41A86E 82%, #4bba7c 100%);
+  background-image: -moz-linear-gradient(top, #42ac70 0%, #6ca585 48%, #41A86E 49%, #41A86E 82%, #4bba7c 100%);
+  background-image: -o-linear-gradient(top, #42ac70 0%, #6ca585 48%, #41A86E 49%, #41A86E 82%, #4bba7c 100%);
+  background-image: linear-gradient(top, #42ac70 0%, #6ca585 48%, #41A86E 49%, #41A86E 82%, #4bba7c 100%);
+  border-color: hsl(0, 0%, 46%);
+  -webkit-box-shadow: inset 0 0 1px 1px #5cc088, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0 0 1px 1px #5cc088, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0 1px 1px #5cc088, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  -webkit-text-shadow: 1px 1px 1px #255e3e;
+  -moz-text-shadow: 1px 1px 1px #255e3e;
+  -o-text-shadow: 1px 1px 1px #255e3e;
+  text-shadow: 1px 1px 1px #255e3e;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
+  padding: 7.199999999999999px 18px 7.199999999999999px 18px;
+}
+
+.shiny-button strong {
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+
+.shiny-button:hover {
+  color: #FFFFFF;
+  background-color: #45b375;
+  background-image: -webkit-linear-gradient(top, #46b777 0%, #75ab8d 48%, #45b375 49%, #45b375 82%, #56be83 100%);
+  background-image: -moz-linear-gradient(top, #46b777 0%, #75ab8d 48%, #45b375 49%, #45b375 82%, #56be83 100%);
+  background-image: -o-linear-gradient(top, #46b777 0%, #75ab8d 48%, #45b375 49%, #45b375 82%, #56be83 100%);
+  background-image: linear-gradient(top, #46b777 0%, #75ab8d 48%, #45b375 49%, #45b375 82%, #56be83 100%);
+  border-color: hsl(0, 0%, 49%);
+  -webkit-box-shadow: inset 0 0 1px 1px #6ac692, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0 0 1px 1px #6ac692, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0 1px 1px #6ac692, 0 0 1px 3px rgba(0, 0, 0, 0.15);
+  -webkit-text-shadow: 1px 1px 1px #296945;
+  -moz-text-shadow: 1px 1px 1px #296945;
+  -o-text-shadow: 1px 1px 1px #296945;
+  text-shadow: 1px 1px 1px #296945;
+}
+
+.shiny-button:active {
+  color: #FFFFFF;
+  background-color: #3d9d67;
+  background-image: -webkit-linear-gradient(top, #3a9662 0%, #41A86E 100%);
+  background-image: -moz-linear-gradient(top, #3a9662 0%, #41A86E 100%);
+  background-image: -o-linear-gradient(top, #3a9662 0%, #41A86E 100%);
+  background-image: linear-gradient(top, #3a9662 0%, #41A86E 100%);
+  padding: 8.2px 18px 6.199999999999999px 18px;
+}
+
