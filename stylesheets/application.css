@@ -68,6 +68,9 @@ a {
   color: inherit;
   text-decoration: none; }
 
+p, ul {
+  max-width: 400px; }
+
 blockquote {
   /*
     &:before {
@@ -77,26 +80,6 @@ blockquote {
       content: "\201d";
     }
   */ }
-
-.column {
-  display: block;
-  float: left;
-  max-width: 400px;
-  margin-bottom: 24px;
-  margin-right: 24px; }
-
-footer {
-  padding: 50px;
-  text-align: center; }
-  footer p {
-    color: #555;
-    font: 400 16px/1 'open sans';
-    margin: 0 0 2em 0; }
-    footer p a {
-      color: #555;
-      font-weight: 700; }
-      footer p a:hover {
-        color: #000; }
 
 .page {
   width: 100%; }
@@ -115,9 +98,9 @@ footer {
     .page.dark p, .page.dark ul {
       color: #bbb;
       font: 400 13px/21px 'open sans';
-      margin: 0 50px 0 0; }
+      margin: 0 50px 42px 0; }
     .page.dark ul {
-      margin: 12px 0 0 12px; }
+      margin: 12px 0 42px 12px; }
       .page.dark ul li {
         position: relative; }
         .page.dark ul li:before {
@@ -148,9 +131,9 @@ footer {
     .page.light p, .page.light ul {
       color: #222;
       font: 400 13px/21px 'open sans';
-      margin: 0 50px 0 0; }
+      margin: 0 50px 42px 0; }
     .page.light ul {
-      margin: 12px 0 0 12px; }
+      margin: 12px 0 42px 12px; }
       .page.light ul li {
         position: relative; }
         .page.light ul li:before {

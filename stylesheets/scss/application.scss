@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+p, ul {
+  max-width: 400px;
+}
+
 blockquote {
 /*
   &:before {
@@ -20,35 +24,6 @@ blockquote {
     content: "\201d";
   }
 */
-}
-
-.column {
-  display: block;
-  float: left;
-  max-width: 400px;
-  margin-bottom: 24px;
-  margin-right: 24px;
-}
-
-
-footer {
-  padding: 50px;
-  text-align: center;
-
-  p {
-    color: #555;
-    font: 400 16px/1 'open sans';
-    margin: 0 0 2em 0;
-
-    a {
-      color: #555;
-      font-weight: 700;
-
-      &:hover {
-        color: #000;
-      }
-    }
-  }
 }
 
 .page {
@@ -76,11 +51,11 @@ footer {
     p, ul {
       color: #bbb;
       font: 400 13px/21px 'open sans';
-      margin: 0 50px 0 0;
+      margin: 0 50px 42px 0;
     }
 
     ul {
-      margin: 12px 0 0 12px;
+      margin: 12px 0 42px 12px;
 
       li {
         position: relative;
@@ -125,11 +100,11 @@ footer {
     p, ul {
       color: #222;
       font: 400 13px/21px 'open sans';
-      margin: 0 50px 0 0;
+      margin: 0 50px 42px 0;
     }
 
     ul {
-      margin: 12px 0 0 12px;
+      margin: 12px 0 42px 12px;
 
       li {
         position: relative;
@@ -233,4 +208,3 @@ blockquote * {
   background-image: linear-gradient(top, #3a9662 0%, #41A86E 100%);
   padding: 8.2px 18px 6.199999999999999px 18px;
 }
-
